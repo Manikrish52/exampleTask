@@ -1,0 +1,109 @@
+
+/* GENERAL */
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar_brand{
+font-weight:700;
+font-size:28px;
+}
+
+/* HERO SECTION */
+
+.hero{
+height:90vh;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url("https://images.unsplash.com/photo-1551434678-e076c223a692");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+color:white;
+}
+
+.hero h1{
+font-size:50px;
+font-weight:700;
+}
+
+/* FEATURES DARK SECTION */
+
+.features{
+background:#111;
+color:white;
+padding:80px 0;
+position:relative;
+}
+
+.feature-box{
+margin-bottom:30px;
+}
+
+.feature-box i{
+font-size:30px;
+color:#ff4a4a;
+margin-bottom:10px;
+display:block;
+}
+
+/* STATS */
+
+.stats{
+background:#f5f5f5;
+padding:80px 0;
+}
+
+.stat-box{
+background:white;
+padding:30px;
+border-radius:8px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.stat-box i{
+font-size:30px;
+color:#ff4a4a;
+margin-bottom:10px;
+}
+
+/* SERVICE BOXES */
+
+.services{
+padding:50px 0;
+}
+
+.service-box{
+border:1px solid #ddd;
+padding:25px;
+text-align:center;
+}
+
+/* ABOUT */
+
+.about{
+padding:80px 0;
+}
+
+.about ul{
+list-style:none;
+padding:0;
+}
+
+.about ul li{
+margin-bottom:10px;
+}
+
+.about ul li::before{
+content:"✔";
+color:red;
+margin-right:10px;
+}
+.button_content{
+    color: #111 !important;
+    font-weight: 800 !important;
+}
